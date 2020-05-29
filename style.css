@@ -14,7 +14,6 @@
   width: 100%;
 }
 
-
 .container-bottom {
   display: flex;
   flex-wrap: wrap;
@@ -23,12 +22,12 @@
   width: 100%;
 }
 
-
+/*style of each element*/
 .item{
   border-style: solid;
   border-width: 1.5px;
   padding:10px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .extra-big {
@@ -47,9 +46,11 @@
   width: 180px;  /* Or whatever */
 }
 
+/*To apply different margins to the middle container*/
+/*As Mihai suggested*/
 .container-middle > .item {
-  margin-left: 5px;
-  margin-right:5px;
+  /*margin-left: 10px;*/
+  /*margin-right: 10px;*/
 }
 
 @font-face {
