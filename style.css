@@ -1,3 +1,17 @@
+@font-face {
+  font-family: agipo;
+  src: url(font/agipo_regular.otf) format("opentype");
+}
+
+h1{
+  font-family: agipo;
+  font-size: 22px;
+}
+
+p{
+  font-family: agipo;
+}
+
 .container-top {
   display: flex;
   flex-wrap: wrap;
@@ -23,12 +37,18 @@
 }
 
 /*style of each element*/
-.item{
+.item {
   border-style: solid;
   border-width: 1.5px;
   padding:10px;
   margin: 10px;
+  transition: border-color 1s linear;
 }
+
+.item:hover {
+  border-color:white;
+}
+
 
 .extra-big {
   width: 350px;  /* Or whatever */
@@ -53,16 +73,5 @@
   /*margin-right: 10px;*/
 }
 
-@font-face {
-  font-family: agipo;
-  src: url(font/agipo_regular.otf) format("opentype");
-}
 
-h1{
-  font-family: agipo;
-  font-size: 22px;
-}
 
-p{
-  font-family: agipo;
-}
