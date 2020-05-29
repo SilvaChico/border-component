@@ -1,0 +1,67 @@
+.container-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.container-middle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
+
+
+.container-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+
+.item{
+  border-style: solid;
+  border-width: 1.5px;
+  padding:10px;
+  margin: 5px;
+}
+
+.extra-big {
+  width: 350px;  /* Or whatever */
+}
+
+.big {
+  width: 250px;  /* Or whatever */
+}
+
+.medium {
+  width: 200px;  /* Or whatever */
+}
+
+.small {
+  width: 180px;  /* Or whatever */
+}
+
+.container-middle > .item {
+  margin-left: 5px;
+  margin-right:5px;
+}
+
+@font-face {
+  font-family: agipo;
+  src: url(font/agipo_regular.otf) format("opentype");
+}
+
+h1{
+  font-family: agipo;
+  font-size: 22px;
+}
+
+p{
+  font-family: agipo;
+}
